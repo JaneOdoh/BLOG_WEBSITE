@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TableController;
+use Symfony\Component\Routing\Route as RoutingRoute;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/create',[TableController::class, 'site']);
+Route::post('/store',[TableController::class, 'store']);
+Route::get('/index',[TableController::class, 'index']);
+Route::get('/show/{id}',[TableController::class, 'show']);
