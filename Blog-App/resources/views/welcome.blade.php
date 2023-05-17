@@ -579,7 +579,7 @@ footer p{
     <header>
         <div class="nav container">
             <a href="#" class="logo" style="color:rgb(3, 3, 53);">Developers <span style="color:rgb(19, 233, 8);">Forum</span></a>
-            <a href="#" class="login" style="background-color:rgb(3, 3, 53);">Login</a>
+            <a href="/create" class="login" style="background-color:rgb(3, 3, 53);">Login</a>
         </div>
     </header>
 
