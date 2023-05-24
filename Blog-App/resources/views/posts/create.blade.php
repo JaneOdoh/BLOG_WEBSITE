@@ -172,7 +172,8 @@ li{
     margin-top: 100px ;
     margin-left: 50px;
 
-    height: 80vh;
+
+   
 }
 .image p{
     line-height: 1.2rem
@@ -192,7 +193,7 @@ li{
 .post{
     margin: 50px -250px
 }
-@media (max-width:500px){
+@media (max-width:400px){
     header{
        
         margin-left: -25px;
@@ -205,8 +206,9 @@ li{
     .everything{
         display: block;
     }
-    .image{
-        margin-left: 2px
+    
+    .image img{
+        max-width: 90%;
     }
     .post{
         margin-left:-380px;
@@ -215,8 +217,12 @@ li{
         margin-top: -100px;
     }
     form{
-        width: 380px;
+        width: 360px;
+        margin-top: 120px;
+        margin-right: 50px
+        
     }
+    
     .all{
         margin-top: 50px
     }
@@ -243,7 +249,40 @@ li{
         margin-left: 70px;
         width: 200px;
     }
-}
+   
+
+
+    }
+    @media (max-width:768px){
+        .head p{
+        margin-left: 2px;
+        font-size:1rem;
+       
+        
+       }
+       .everything{
+        display: block;
+       }
+       .image img{
+        max-width: 100%;
+        margin-left: 50px
+       }
+       .image h2{
+        margin-left: 50px
+       }
+       .image p{
+        margin-left: 50px
+       }
+       .image button{
+        margin-left: 180px
+       }
+      form{
+        width: 600px;
+        margin-left: 320px;
+      }
+      
+    }
+
 </style>
 </head>
 <body>
@@ -268,7 +307,9 @@ li{
       <div class="everything">
         <div class="image">
            
-            <img src="https://images.unsplash.com/photo-1664575198308-3959904fa430?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxvZ2dlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" >
+            <img src="https://images.unsplash.com/photo-1664575198308-
+            3959904fa430?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ymxv
+            Z2dlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" >
            <h2>Lorem, ipsum.</h2>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Vero blanditiis fugit tempore excepturiipsum expedita Lorem ipsum  <br>  dolor sit amet consectetur, adipisicing elit. <br> Eveniet autem magni eligendi perspiciatis inventore saepe omnis.</p>
            <button><a href="">Learn More</a></button>
